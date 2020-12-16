@@ -1,0 +1,41 @@
+.numbers{
+  background-color: var(--accent-color);
+  padding: 60px 0;
+  margin-bottom: 100px;
+ 
+
+}
+
+.numbers_item{
+  display:flex;
+}
+
+.numbers_item + .numbers_item {
+  margin-left: 40px;
+}
+.project{
+  margin-right: 20px;
+
+}
+.group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  color: white;
+}
+.amount_project{
+  font-size:1.5rem;
+  
+}
+
+@media screen and (min-width: 576px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+  .numbers{
+    padding: 100px 0;
+  }
+  
+}
