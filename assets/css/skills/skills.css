@@ -1,0 +1,64 @@
+.skills {
+    padding: 50px 0;
+}
+
+.skills-wrapper {
+    margin-bottom: 30px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-list {
+    padding: 30px 0;
+}
+
+.skill {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.skill::before, .skill::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 4px;
+}
+
+.skill::before {
+    width: 100%;
+    background-color: #C4C4C4;
+}
+
+.skill::after {
+    width: 70%;
+    background-color: var(--accent-bg-color);
+}
+
+.my-photo-wrapper {
+    position: relative;
+    padding-top: 81%;
+    overflow: hidden;
+}
+
+.my-photo {
+    width: 100%;
+    height: inherit;
+    display: block;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        padding: 100px 0;
+    }
+
+    .skill {
+        margin-right: 120px;
+    }
+}
