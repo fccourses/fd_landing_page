@@ -15,6 +15,7 @@
 
 .webform-text, .webform-email, .webform-message {
     padding: 1rem;
+    border: none;
 }
 
 .webform-text, .webform-email {
