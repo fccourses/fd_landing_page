@@ -1,0 +1,45 @@
+.landing-footer {
+    background-color: var(--accent-bg-color);
+    padding-top: 30px;
+}
+
+.copyrighter {
+    font-size: 1.3125rem;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    font-size: 0.8125rem;
+}
+
+.copyright-wrapper {
+    margin-bottom: 20px;
+}
+
+.copyright-wrapper, .social-wrapper {
+    text-align: center;
+}
+
+.social-link {
+    display: inline-block;
+}
+
+.social-img {
+    display: block;
+    padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .landing-footer {
+        padding: 50px 0;
+    }
+
+    .copyright-wrapper {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .social-wrapper {
+        text-align: right;
+    }
+}
