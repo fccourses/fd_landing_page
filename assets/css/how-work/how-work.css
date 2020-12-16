@@ -1,0 +1,20 @@
+.how-work {
+    padding: 50px 0;
+  }
+  
+  .how-work-heading-margins {
+    margin-bottom: 25px;
+  }
+  
+  .how-work-wrapper {
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .how-work-heading-margins {
+      margin-bottom: 50px;
+    }
+    .how-work {
+      padding: 110px 0;
+    }
+  }
