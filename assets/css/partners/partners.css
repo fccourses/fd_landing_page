@@ -1,0 +1,28 @@
+.partners {
+    padding: 50px 0;
+}
+
+.partner-logo-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 25%;
+    overflow: hidden;
+}
+
+.partner-logo {
+    width: 100%;
+    max-width: 255px;
+    height: inherit;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .partners {
+        padding: 100px 0;
+    }
+
+    .partner-logo-wrapper {
+    padding-top: 38%;
+    }
+}
