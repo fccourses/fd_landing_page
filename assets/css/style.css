@@ -1,1 +1,9 @@
-@import './reset.css';
+@import "./reset.css";
+@import "./grid.css";
+@import "./common.css";
+@import "./header/header.css";
+@import "./welcome-screen/welcome-screen.css";
+@import "./about-me/about-me.css";
+@import "./projects-screen/projects-screen.css";
+@import "./projects-count/projects-count.css";
+@import "./skills-page/skills-page.css";

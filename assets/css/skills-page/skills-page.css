@@ -1,0 +1,45 @@
+.skills-page{
+  padding: 100px 0;
+}
+
+.skills-ava{
+  width: 100%;
+  display: block;
+  object-fit: fill;
+  object-position: center;
+}
+
+.skills-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrapper-skill{
+  margin: 20px 0;
+}
+
+.skill-name{
+  font-size: 1em;
+  font-weight: 300;
+  opacity: 0.5;
+}
+
+.progress-bar-wrapper{
+  width: 90%;
+  height: 3px;
+  background-color: #34537a75;
+  margin-top: 15px;
+}
+
+.progress-bar{
+  width: 75%;
+  height: 3px;
+  background-color: #34537a;
+}
+
+.skill-heading{
+  margin-bottom: 50px;
+  font-size: 2em;
+  font-weight: 500;
+}
