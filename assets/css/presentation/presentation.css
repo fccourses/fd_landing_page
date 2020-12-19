@@ -9,8 +9,22 @@
     justify-content: center;
 }
 
-.pr-img {
+.pr-card .sub-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.pr-img-wrapper {
+    height: 50px;
+    width: 50px;
     margin-right: 20px;
+}
+
+.pr-img {
+    height: inherit;
+    object-fit: cover;
 }
 
 .text-accent {
