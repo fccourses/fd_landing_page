@@ -5,3 +5,10 @@
 @import "./welcome-screen/welcome-screen.css";
 @import "./about-me/about-me.css";
 @import "./projects-screen/projects-screen.css";
+@import "./presentation/presentation.css";
+@import "./skills/skills.css";
+@import "./how-work/how-work.css";
+@import "./video-section/video-section.css";
+@import "./partners/partners.css";
+@import "./webform-section/webform-section.css";
+@import "./landing-footer/landing-footer.css";

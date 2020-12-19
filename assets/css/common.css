@@ -3,6 +3,7 @@
   --accent-bg-color: rgba(52, 84, 122, 0.8);
   --second-bg-color: #eeeff1;
   --text-color: #727272;
+  --text-white: #FFFFFF;
 
   font-size: 14px;
   font-family: "Roboto", sans-serif;
@@ -11,7 +12,8 @@
 }
 
 .main-heading,
-.sub-heading {
+.sub-heading,
+.sub-title {
   font-weight: 500;
   line-height: 1;
 }
@@ -22,6 +24,10 @@
 
 .sub-heading {
   font-size: 2rem;
+}
+
+.sub-title {
+  font-size: 1rem;
 }
 
 .article-content {
@@ -47,6 +53,10 @@
 
 .jc-center {
   justify-content: center;
+}
+
+.white {
+  color: var(--text-white);
 }
 
 .full-size {
