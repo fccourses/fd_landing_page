@@ -251,7 +251,7 @@
 
     <section class="form ">
       <div class="container">
-        <div class="row js-center">
+        <div class="row jc-center">
           <div class="col-12 col-md-6">
             <article class="form_title ">
               <h2 class="sub-heading about-me-heading-margins">Хотите веб-сайт?</h2>
@@ -262,7 +262,8 @@
               </p>
             </article>
             <div class="col-12 col-md-6">
-            <article class="form_wrapper">
+            <form class="form_wrapper">
+              <div class="input_wrapper">
               <input class="input" type="text"
               placeholder="Ваше имя"
               name="вашеИмя"
@@ -274,9 +275,10 @@
               name="email"
               pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+"
               required>
+            </div>
               <textarea class="messege" wrap="soft" placeholder="Сообщение" name="messege" cols="30" rows="10"></textarea>
               <button class="first-screen_button btn btn-welcome-margins">отправить</button>   
-            </article>
+            </form>
           </div>
           </div>
         </div>
