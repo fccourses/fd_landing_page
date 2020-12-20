@@ -1,0 +1,73 @@
+.registration-screen {
+  background-color: var(--second-bg-color);
+  padding: 50px 0;
+}
+
+.registration-wrapper {
+  text-align: center;
+}
+
+.registration-heading-margins {
+  margin-bottom: 25px;
+}
+
+.registration-content-margins {
+  margin-bottom: 30px;
+}
+
+.form-row-1 {
+  margin-bottom: 20px;
+}
+
+.form-row-2 {
+  margin-bottom: 30px;
+}
+
+.form-input-name,
+.form-input-email,
+.form-textarea {
+  width: 100%;
+  border: none;
+  padding: 18px 20px;
+}
+
+.form-input-name {
+  margin-bottom: 20px;
+}
+
+.form-textarea {
+  height: 175px;
+  resize: none;
+}
+
+.form-submit {
+  padding: 20px 40px;
+  text-transform: uppercase;
+  border: none;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+  background-color: var(--accent-color);
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .registration-screen {
+    padding: 100px 0;
+  } 
+
+  .registration-heading-margins {
+    margin-bottom: 50px;
+  }
+  
+  .registration-content-margins {
+    margin-bottom: 65px;
+  }
+
+  .form-row-2 {
+    margin-bottom: 50px;
+  }
+
+  .form-input-name {
+    margin-bottom: 0px;
+  }
+}
