@@ -1,0 +1,46 @@
+.form {
+  background-color: var(--second-bg-color);
+  padding-top: 30px;
+}
+.row {
+  justify-content: center;
+  flex-grow: 1;
+}
+.feedbackFormWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feedbackTextWrapper {
+  text-align: center;
+}
+.feedbackFormHeading {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 0.8rem;
+}
+.formText {
+  padding: 10px 0;
+  padding-left: 25px;
+  overflow: auto;
+}
+.feedbackInputsWrapper {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+.feedbackInput {
+  width: 40%;
+  border: none;
+  padding: 10px 10px;
+}
+
+.feedbackComent {
+  width: 90%;
+  height: 150px;
+  resize: none;
+  margin-bottom: 30px;
+}
+
