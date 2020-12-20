@@ -1,0 +1,41 @@
+.achievements-screen {
+  background-color: var(--accent-color);
+  padding: 20px 0;
+  margin-bottom: 10px;
+}
+
+.achievements-wrapper {
+  height: 50px;
+  padding-left: 70px;
+  position: relative;
+  margin: 15px 0;
+}
+
+.achievements-paragraph::before {
+  content: url("../../images/Group.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.achievements-number,
+.achievements-item {
+  display: block;
+  color: white;
+}
+
+.achievements-number {
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 1200px) {
+  .achievements-screen {
+    padding: 100px 0;
+  }
+  
+  .achievements-wrapper {
+    margin: 0;
+  }
+}
