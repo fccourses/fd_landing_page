@@ -1,0 +1,37 @@
+.numbers{
+  background-color: var(--accent-color);
+  padding: 40px 0;
+  margin-bottom: 100px;
+}
+
+.numbers_item{
+  display:flex;
+  justify-content: center;
+}
+
+.project{
+  margin-right: 20px;
+}
+
+.group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+.amount_project{
+  font-size:1.5rem;
+}
+
+@media screen and (min-width: 992px) {
+  .numbers{
+    padding: 65px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .numbers{
+    padding: 100px 0;
+  }
+}
