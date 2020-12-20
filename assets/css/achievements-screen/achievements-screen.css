@@ -12,7 +12,7 @@
 }
 
 .achievements-paragraph::before {
-  content: url("/assets/images/Group.png");
+  content: url("../../images/Group.png");
   position: absolute;
   left: 0;
   top: 0;
