@@ -1,0 +1,77 @@
+.numbers{
+  max-width: 100%;
+  background-color: var(--accent-color);
+}
+
+.numberWrapper{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.itemNumber{
+  
+  margin: 10px 10px;
+  color: white;
+  font-size: 1rem;
+}
+.imgNumber{
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+.headingNumber{
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 550;
+}
+.textNumber{
+  font-weight: 300;padding-left: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width:768px){
+  .numbers{
+    margin-bottom: 50px;
+  }
+  
+  .numberWrapper{
+    
+    justify-content: space-between;
+
+  }
+  .itemNumber{
+    display: flex;
+    margin: 20px -10px;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .textNumber{
+    padding-left: 3px;
+    display: flex;
+    flex-direction: column;
+
+}
+.headingNumber{
+  align-self: flex-start;
+  
+}
+}
+
+@media screen and (min-width:1200px){
+  .itemNumber{
+    display: inline-flex;
+    margin: 20px -10px;
+    color: white;
+    font-size: 1.5rem;
+  }
+  .imgNumber{
+    width: 50px;
+  height: 50px;
+  }
+  .textNumber{
+    padding-left: 5px;
+  }
+}
